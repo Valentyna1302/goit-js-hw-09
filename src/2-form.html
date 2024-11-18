@@ -11,7 +11,19 @@
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
-        <h1 class="main-title">Form</h1>
+        <form class="feedback-form" autocomplete="off">
+          <div class="label-container">
+            <label>
+              Email
+              <input type="email" name="email" autofocus />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="8" class="textarea"></textarea>
+            </label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </main>
 

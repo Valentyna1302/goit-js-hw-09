@@ -90,8 +90,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captions: true,
 });
 
-lightbox.refresh();
-
 // function selectImage(event) {
 //   event.preventDefault();
 //   if (!event.target.classList.contains('gallery-image')) {
