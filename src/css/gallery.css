@@ -15,12 +15,3 @@
   height: 200px;
   object-fit: cover;
 }
-
-.modal {
-  width: 1440px;
-  padding: 164px 28px;
-  background: rgba(46, 47, 66, 0.8);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}

@@ -1,6 +1,5 @@
-// Описаний в документації
 import SimpleLightbox from 'simplelightbox';
-// Додатковий імпорт стилів
+
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
@@ -85,7 +84,13 @@ function createMarkup(arr) {
     .join('');
 }
 
-// let gallery = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a', {
+  captionsData: 'alt',
+  captionsDelay: 250,
+  captions: true,
+});
+
+lightbox.refresh();
 
 // function selectImage(event) {
 //   event.preventDefault();
